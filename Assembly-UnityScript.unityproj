@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{52C766D7-740E-97C4-A489-AD0A22081618}</ProjectGuid>
+	<ProjectGuid>{AD51B8D6-7772-4B0A-E9E4-ECDCFE10E4C7}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -46,7 +46,8 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\CameraController.js" />
+     <Compile Include="Assets\Scripts\CameraController.js" />
+     <Compile Include="Assets\Scripts\PickUpController.js" />
      <Compile Include="Assets\Scripts\PlayerController.js" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
